@@ -1,4 +1,4 @@
 // vue.config.js
 module.exports = {
-    // transpileDependencies: ['uview-ui']
+    transpileDependencies: ['uview-ui']
 }

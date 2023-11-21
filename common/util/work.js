@@ -22,13 +22,13 @@ export const header = {
 					icon: icon_prefix + "zhoubao.png",
 					description: "核销+收银",
 					useCount: 10000,
-					page: 'operationReport'
+					page: 'helloWorld'
 				}, {
 					title: "连锁报表",
 					icon: icon_prefix + "kaoqin.png",
 					description: "连锁报表",
 					useCount: 10000,
-					page: 'operationReport'
+					page: 'helloWorld'
 				}, {
 					title: "贡献报表",
 					icon: icon_prefix + "richeng.png",
@@ -40,19 +40,19 @@ export const header = {
 					icon: icon_prefix + "qingjia1.png",
 					description: "待唤醒客户",
 					useCount: 10000,
-					page: 'operationReport'
+					page: 'helloWorld'
 				}, {
 					title: "专属管家",
 					icon: icon_prefix + "chuchai.png",
 					description: "专属管家",
 					useCount: 10000,
-					page: 'operationReport'
+					page: 'helloWorld'
 				}, {
 					title: "招募资料",
 					icon: icon_prefix + "gongwen.png",
 					description: "招募资料",
 					useCount: 10000,
-					page: 'operationReport'
+					page: 'helloWorld'
 				}, {
 					title: "查看记录",
 					icon: icon_prefix + "tongzhi.png",
@@ -65,7 +65,7 @@ export const header = {
 					description: "执行力分析",
 					useCount: 10000,
 					dot: false,
-					page: 'operationReport'
+					page: 'helloWorld'
 				}, {
 					title: "客户信息",
 					icon: icon_prefix + "tongxun.png",
@@ -105,13 +105,13 @@ export const header = {
 					icon: icon_prefix + "toupiao.png",
 					description: "投票中心",
 					useCount: 10000,
-					page: 'operationReport'
+					page: 'helloWorld'
 				}, {
 					title: "添加合伙人",
 					icon: icon_prefix + "renwu.png",
 					description: "任务中心",
 					useCount: 10000,
-					page: 'operationReport'
+					page: 'helloWorld'
 				}]
 			}
 		},
@@ -127,25 +127,25 @@ export const header = {
 					icon: icon_prefix + "wendang.png",
 					description: "文档中心",
 					useCount: 10000,
-					page: 'operationReport'
+					page: 'helloWorld'
 				}, {
 					title: "添加员工",
 					icon: icon_prefix + "hetong.png",
 					description: "合同",
 					useCount: 10000,
-					page: 'operationReport'
+					page: 'helloWorld'
 				}, {
 					title: "分红账户",
 					icon: icon_prefix + "huiyi.png",
 					description: "会议",
 					useCount: 10000,
-					page: 'operationReport'
+					page: 'helloWorld'
 				}, {
 					title: "连锁设置",
 					icon: icon_prefix + "tongzhi.png",
 					description: "客户关系",
 					useCount: 10000,
-					page: 'operationReport'
+					page: 'helloWorld'
 				}]
 			}
 		},

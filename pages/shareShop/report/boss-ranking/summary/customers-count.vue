@@ -43,10 +43,10 @@
 </template>
 
 <script>
-	// import uniCalendar from '@/uni_modules/uni-calendar/components/uni-calendar/uni-calendar'
+	import uniCalendar from '@/uni_modules/uni-calendar/components/uni-calendar/uni-calendar'
 export default {
 	components: {
-	    // uniCalendar
+	    uniCalendar
 	  },
   data() {
     return {

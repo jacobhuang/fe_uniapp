@@ -20,7 +20,7 @@ export const us = {
       icon:icon_prefix+"kaoqin.png",
       description:"团购套餐设置",
       useCount:10000,
-	  page:'operationReport'
+	  page:'helloWorld'
     },{
       title:"邀请达人",
       icon:icon_prefix+"richeng.png",
@@ -32,13 +32,13 @@ export const us = {
       icon:icon_prefix+"qingjia1.png",
       description:"达人管理",
       useCount:10000,
-	  page:'operationReport'
+	  page:'helloWorld'
     },{
 	  title:"每日上传报表",
 	  icon:icon_prefix+"chuchai.png",
 	  description:"每日上传报表",
 	  useCount:10000,
-	  page:'operationReport'
+	  page:'helloWorld'
     }
   ]
 }
@@ -54,37 +54,37 @@ export const os = {
       icon:icon_prefix+"xinwen.png",
       description:"员工中心",
       useCount:10000,
-	  page:'operationReport'
+	  page:'helloWorld'
     },{
       title:"员工奖励设置",
       icon:icon_prefix+"toupiao.png",
       description:"员工奖励设置",
       useCount:10000,
-	  page:'operationReport'
+	  page:'helloWorld'
     },{
       title:"探店素材管理",
       icon:icon_prefix+"renwu.png",
       description:"探店素材管理",
       useCount:10000,
-	  page:'operationReport'
+	  page:'helloWorld'
     },{
       title:"系统设置",
       icon:icon_prefix+"renwu.png",
       description:"系统设置",
       useCount:10000,
-	  page:'operationReport'
+	  page:'helloWorld'
     },{
       title:"权限管理",
       icon:icon_prefix+"tongzhi.png",
       description:"权限管理",
       useCount:10000,
-      page:'operationReport'
+      page:'helloWorld'
     },{
       title:"收银台",
       icon:icon_prefix+"tongzhi.png",
       description:"收银台",
       useCount:10000,
-      page:'operationReport'
+      page:'helloWorld'
     }
   ]
 }
@@ -99,7 +99,7 @@ export const base = {
      icon:icon_prefix+"gongwen.png",
      description:"奖励账户管理",
      useCount:10000,
-     page:'operationReport'
+     page:'helloWorld'
    },{
      title:"对账单",
      icon:icon_prefix+"tongzhi.png",
@@ -112,7 +112,7 @@ export const base = {
      description:"抖音券核销",
      useCount:10000,
      dot:false,
-     page:'operationReport'
+     page:'helloWorld'
    },{
      title:"探店任务管理",
      icon:icon_prefix+"tongxun.png",

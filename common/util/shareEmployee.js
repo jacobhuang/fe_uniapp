@@ -24,13 +24,13 @@ export const shareEmployee = {
               icon:icon_prefix+"zhoubao.png",
               description:"客源流失分析排名",
               useCount:10000,
-            page:'operationReport'
+            page:'helloWorld'
             },{
               title:"转介绍掌柜",
               icon:icon_prefix+"kaoqin.png",
               description:"转介绍掌柜",
               useCount:10000,
-            page:'operationReport'
+            page:'helloWorld'
             },{
               title:"掌柜冠军报表",
               icon:icon_prefix+"richeng.png",
@@ -42,13 +42,13 @@ export const shareEmployee = {
               icon:icon_prefix+"qingjia1.png",
               description:"待唤醒客户",
               useCount:10000,
-            page:'operationReport'
+            page:'helloWorld'
             },{
             title:"客源流失分析",
             icon:icon_prefix+"chuchai.png",
             description:"客源流失分析",
             useCount:10000,
-            page:'operationReport'
+            page:'helloWorld'
             }
           ]
 			}
@@ -66,7 +66,7 @@ export const shareEmployee = {
               icon:icon_prefix+"gongwen.png",
               description:"商品毛利设置",
               useCount:10000,
-              page:'operationReport'
+              page:'helloWorld'
             },{
               title:"奖励方案设置",
               icon:icon_prefix+"tongzhi.png",
@@ -79,7 +79,7 @@ export const shareEmployee = {
               description:"贵宾卡管理",
               useCount:10000,
               dot:false,
-              page:'operationReport'
+              page:'helloWorld'
             },{
               title:"共享掌柜管理",
               icon:icon_prefix+"tongxun.png",
@@ -103,43 +103,43 @@ export const shareEmployee = {
               icon:icon_prefix+"wendang.png",
               description:"活动中心",
               useCount:10000,
-              page:'operationReport'
+              page:'helloWorld'
             },{
               title:"员工中心",
               icon:icon_prefix+"hetong.png",
               description:"员工中心",
               useCount:10000,
-              page:'operationReport'
+              page:'helloWorld'
             },{
               title:"会员中心",
               icon:icon_prefix+"huiyi.png",
               description:"会员中心",
               useCount:10000,
-              page:'operationReport'
+              page:'helloWorld'
             },{
               title:"订单中心",
               icon:icon_prefix+"tongzhi.png",
               description:"订单中心",
               useCount:10000,
-              page:'operationReport'
+              page:'helloWorld'
             },{
               title:"系统设置",
               icon:icon_prefix+"tongzhi.png",
               description:"系统设置",
               useCount:10000,
-              page:'operationReport'
+              page:'helloWorld'
             },{
               title:"权限管理",
               icon:icon_prefix+"tongzhi.png",
               description:"权限管理",
               useCount:10000,
-              page:'operationReport'
+              page:'helloWorld'
             },{
               title:"收银台",
               icon:icon_prefix+"tongzhi.png",
               description:"收银台",
               useCount:10000,
-              page:'operationReport'
+              page:'helloWorld'
             }
           ]
 			}
@@ -167,13 +167,13 @@ export const us = {
       icon:icon_prefix+"zhoubao.png",
       description:"员工奖励记录",
       useCount:10000,
-	  page:'operationReport'
+	  page:'helloWorld'
     },{
       title:"拓客排名",
       icon:icon_prefix+"kaoqin.png",
       description:"拓客排名",
       useCount:10000,
-	  page:'operationReport'
+	  page:'helloWorld'
     },{
       title:"员工贡献排名",
       icon:icon_prefix+"richeng.png",
@@ -185,19 +185,19 @@ export const us = {
       icon:icon_prefix+"qingjia1.png",
       description:"后厨员工排名",
       useCount:10000,
-	  page:'operationReport'
+	  page:'helloWorld'
     },{
 	  title:"创新菜品分析",
 	  icon:icon_prefix+"chuchai.png",
 	  description:"创新菜品分析",
 	  useCount:10000,
-	  page:'operationReport'
+	  page:'helloWorld'
     },{
 	  title:"菜品复购分析",
 	  icon:icon_prefix+"gongwen.png",
 	  description:"菜品复购分析",
 	  useCount:10000,
-	  page:'operationReport'
+	  page:'helloWorld'
     },{
 	  title:"后厨复购分析",
 	  icon:icon_prefix+"tongzhi.png",
@@ -222,19 +222,19 @@ export const os = {
       icon:icon_prefix+"xinwen.png",
       description:"拓展客奖励",
       useCount:10000,
-	  page:'operationReport'
+	  page:'helloWorld'
     },{
       title:"回头客奖励",
       icon:icon_prefix+"toupiao.png",
       description:"回头客奖励",
       useCount:10000,
-	  page:'operationReport'
+	  page:'helloWorld'
     },{
       title:"团队协作奖励",
       icon:icon_prefix+"renwu.png",
       description:"团队协作奖励",
       useCount:10000,
-	  page:'operationReport'
+	  page:'helloWorld'
     },
 	//后厨奖励
 	{
@@ -242,19 +242,19 @@ export const os = {
 	  icon:icon_prefix+"xinwen.png",
 	  description:"创作奖励",
 	  useCount:10000,
-	  page:'operationReport'
+	  page:'helloWorld'
 	},{
 	  title:"质量奖励",
 	  icon:icon_prefix+"toupiao.png",
 	  description:"质量奖励",
 	  useCount:10000,
-	  page:'operationReport'
+	  page:'helloWorld'
 	},{
 	  title:"团队协作奖励",
 	  icon:icon_prefix+"renwu.png",
 	  description:"团队协作奖励",
 	  useCount:10000,
-	  page:'operationReport'
+	  page:'helloWorld'
 	}
   ]
 }
@@ -269,49 +269,49 @@ export const base = {
       icon:icon_prefix+"wendang.png",
       description:"活动中心",
       useCount:10000,
-      page:'operationReport'
+      page:'helloWorld'
     },{
       title:"品控管理",
       icon:icon_prefix+"hetong.png",
       description:"品控管理",
       useCount:10000,
-      page:'operationReport'
+      page:'helloWorld'
     },{
       title:"员工中心",
       icon:icon_prefix+"huiyi.png",
       description:"员工中心",
       useCount:10000,
-      page:'operationReport'
+      page:'helloWorld'
     },{
       title:"会员中心",
       icon:icon_prefix+"tongzhi.png",
       description:"会员中心",
       useCount:10000,
-      page:'operationReport'
+      page:'helloWorld'
     },{
       title:"订单中心",
       icon:icon_prefix+"tongzhi.png",
       description:"订单中心",
       useCount:10000,
-      page:'operationReport'
+      page:'helloWorld'
     },{
       title:"系统设置",
       icon:icon_prefix+"tongzhi.png",
       description:"系统设置",
       useCount:10000,
-      page:'operationReport'
+      page:'helloWorld'
     },{
       title:"权限管理",
       icon:icon_prefix+"tongzhi.png",
       description:"权限管理",
       useCount:10000,
-      page:'operationReport'
+      page:'helloWorld'
     },{
       title:"收银台",
       icon:icon_prefix+"tongzhi.png",
       description:"收银台",
       useCount:10000,
-      page:'operationReport'
+      page:'helloWorld'
     }
   ]
 }
