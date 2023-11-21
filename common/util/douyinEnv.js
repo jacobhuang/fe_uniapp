@@ -1,0 +1,124 @@
+/**
+ * 抖音生态
+ * 
+ */
+const  icon_prefix="/static/home/128/"
+/**
+ * 操作中心
+ * 
+ */
+export const us = {
+  data:[
+    {
+      title:"门店信息设置",
+      icon:icon_prefix+"richang.png",
+      description:"门店信息设置",
+      useCount:1000,
+	  page:'operationReport'
+    },{
+      title:"团购套餐设置",
+      icon:icon_prefix+"kaoqin.png",
+      description:"团购套餐设置",
+      useCount:10000,
+	  page:'helloWorld'
+    },{
+      title:"邀请达人",
+      icon:icon_prefix+"richeng.png",
+      description:"邀请达人",
+      useCount:10000,
+	  page:'operationReport'
+    },{
+      title:"达人管理",
+      icon:icon_prefix+"qingjia1.png",
+      description:"达人管理",
+      useCount:10000,
+	  page:'helloWorld'
+    },{
+	  title:"每日上传报表",
+	  icon:icon_prefix+"chuchai.png",
+	  description:"每日上传报表",
+	  useCount:10000,
+	  page:'helloWorld'
+    }
+  ]
+}
+
+
+/**
+ * 公共设置
+ */
+export const os = {
+  data:[
+    {
+      title:"员工中心",
+      icon:icon_prefix+"xinwen.png",
+      description:"员工中心",
+      useCount:10000,
+	  page:'helloWorld'
+    },{
+      title:"员工奖励设置",
+      icon:icon_prefix+"toupiao.png",
+      description:"员工奖励设置",
+      useCount:10000,
+	  page:'helloWorld'
+    },{
+      title:"探店素材管理",
+      icon:icon_prefix+"renwu.png",
+      description:"探店素材管理",
+      useCount:10000,
+	  page:'helloWorld'
+    },{
+      title:"系统设置",
+      icon:icon_prefix+"renwu.png",
+      description:"系统设置",
+      useCount:10000,
+	  page:'helloWorld'
+    },{
+      title:"权限管理",
+      icon:icon_prefix+"tongzhi.png",
+      description:"权限管理",
+      useCount:10000,
+      page:'helloWorld'
+    },{
+      title:"收银台",
+      icon:icon_prefix+"tongzhi.png",
+      description:"收银台",
+      useCount:10000,
+      page:'helloWorld'
+    }
+  ]
+}
+
+/**
+ * other server 共享设置
+ */
+export const base = {
+  data:[
+   {
+     title:"奖励账户管理",
+     icon:icon_prefix+"gongwen.png",
+     description:"奖励账户管理",
+     useCount:10000,
+     page:'helloWorld'
+   },{
+     title:"对账单",
+     icon:icon_prefix+"tongzhi.png",
+     description:"对账单",
+     useCount:10000,
+     page:'annotationList'
+   },{
+     title:"抖音券核销",
+     icon:icon_prefix+"youjian.png",
+     description:"抖音券核销",
+     useCount:10000,
+     dot:false,
+     page:'helloWorld'
+   },{
+     title:"探店任务管理",
+     icon:icon_prefix+"tongxun.png",
+     description:"探店任务管理",
+     useCount:10000,
+     page:'levelAddressBook'
+   }
+  ]
+}
