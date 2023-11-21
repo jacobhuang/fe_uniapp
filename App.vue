@@ -176,7 +176,7 @@
 	@import "plugin/colorui/main.css";
 	@import "plugin/colorui/icon.css";
 	@import "plugin/colorui/animation.css";
-	@import "@/uni_modules/uview-ui/index.scss";
+	// @import "@/uni_modules/uview-ui/index.scss";
 	.nav-list {
 		display: flex;
 		flex-wrap: wrap;

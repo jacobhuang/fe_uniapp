@@ -13,7 +13,7 @@
               <p>上次编辑时间：{{ item.editTime }}</p>
             </div>
             <div class="margin-action">
-              <uni-icons name="edit"
+              <!-- <uni-icons name="edit"
                 type="edit"
                 color="#CFA66F"
                 @click="editMargin(index)"
@@ -22,7 +22,7 @@
                 type="reward"
                 color="#CFA66F"
                 @click="reward(index)"
-              ></uni-icons>
+              ></uni-icons> -->
             </div>
           </div>
         </li>
@@ -62,7 +62,7 @@ import UniButton from "@/components/uni-button/uni-button";
 import UniModal from "@/components/uni-modal/uni-modal";
 import UniFormItem from "@/components/uni-form-item/uni-form-item";
 import UniInput from "@/components/uni-input/uni-input";
-import UniIcons from "@/uni_modules/uni-icons/components/uni-icons/uni-icons";
+// import UniIcons from "@/uni_modules/uni-icons/components/uni-icons/uni-icons";
 
 export default {
   name: "ClassifyMargin",
@@ -71,7 +71,7 @@ export default {
     UniModal,
     UniFormItem,
     UniInput,
-    UniIcons,
+    // UniIcons,
   },
   data() {
     return {

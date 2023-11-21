@@ -23,13 +23,13 @@ export const shareNetHot = {
               icon:icon_prefix+"zhoubao.png",
               description:"客源流失分析排名",
               useCount:10000,
-            page:'helloWorld'
+            page:'operationReport'
             },{
               title:"转介绍掌柜",
               icon:icon_prefix+"kaoqin.png",
               description:"转介绍掌柜",
               useCount:10000,
-            page:'helloWorld'
+            page:'operationReport'
             },{
               title:"掌柜冠军报表",
               icon:icon_prefix+"richeng.png",
@@ -41,13 +41,13 @@ export const shareNetHot = {
               icon:icon_prefix+"qingjia1.png",
               description:"待唤醒客户",
               useCount:10000,
-            page:'helloWorld'
+            page:'operationReport'
             },{
             title:"客源流失分析",
             icon:icon_prefix+"chuchai.png",
             description:"客源流失分析",
             useCount:10000,
-            page:'helloWorld'
+            page:'operationReport'
             }
           ]
 			}
@@ -65,7 +65,7 @@ export const shareNetHot = {
               icon:icon_prefix+"gongwen.png",
               description:"商品毛利设置",
               useCount:10000,
-              page:'helloWorld'
+              page:'operationReport'
             },{
               title:"奖励方案设置",
               icon:icon_prefix+"tongzhi.png",
@@ -78,7 +78,7 @@ export const shareNetHot = {
               description:"贵宾卡管理",
               useCount:10000,
               dot:false,
-              page:'helloWorld'
+              page:'operationReport'
             },{
               title:"共享掌柜管理",
               icon:icon_prefix+"tongxun.png",
@@ -102,43 +102,43 @@ export const shareNetHot = {
               icon:icon_prefix+"wendang.png",
               description:"活动中心",
               useCount:10000,
-              page:'helloWorld'
+              page:'operationReport'
             },{
               title:"员工中心",
               icon:icon_prefix+"hetong.png",
               description:"员工中心",
               useCount:10000,
-              page:'helloWorld'
+              page:'operationReport'
             },{
               title:"会员中心",
               icon:icon_prefix+"huiyi.png",
               description:"会员中心",
               useCount:10000,
-              page:'helloWorld'
+              page:'operationReport'
             },{
               title:"订单中心",
               icon:icon_prefix+"tongzhi.png",
               description:"订单中心",
               useCount:10000,
-              page:'helloWorld'
+              page:'operationReport'
             },{
               title:"系统设置",
               icon:icon_prefix+"tongzhi.png",
               description:"系统设置",
               useCount:10000,
-              page:'helloWorld'
+              page:'operationReport'
             },{
               title:"权限管理",
               icon:icon_prefix+"tongzhi.png",
               description:"权限管理",
               useCount:10000,
-              page:'helloWorld'
+              page:'operationReport'
             },{
               title:"收银台",
               icon:icon_prefix+"tongzhi.png",
               description:"收银台",
               useCount:10000,
-              page:'helloWorld'
+              page:'operationReport'
             }
           ]
 			}
@@ -164,7 +164,7 @@ export const us = {
       icon:icon_prefix+"kaoqin.png",
       description:"网红分红设置",
       useCount:10000,
-	  page:'helloWorld'
+	  page:'operationReport'
     },{
       title:"网红贡献报表",
       icon:icon_prefix+"richeng.png",
@@ -186,19 +186,19 @@ export const os = {
       icon:icon_prefix+"xinwen.png",
       description:"添加员工",
       useCount:10000,
-	  page:'helloWorld'
+	  page:'operationReport'
     },{
       title:"员工分红设置",
       icon:icon_prefix+"toupiao.png",
       description:"员工分红设置",
       useCount:10000,
-	  page:'helloWorld'
+	  page:'operationReport'
     },{
       title:"员工贡献报表",
       icon:icon_prefix+"renwu.png",
       description:"任务中心",
       useCount:10000,
-	  page:'helloWorld'
+	  page:'operationReport'
     }
   ]
 }
@@ -213,13 +213,13 @@ export const base = {
       icon:icon_prefix+"wendang.png",
       description:"核销团购券",
       useCount:10000,
-      page:'helloWorld'
+      page:'operationReport'
     },{
       title:"每日上传报表",
       icon:icon_prefix+"hetong.png",
       description:"每日上传报表",
       useCount:10000,
-      page:'helloWorld'
+      page:'operationReport'
     }
   ]
 }

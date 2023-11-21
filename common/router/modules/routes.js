@@ -114,13 +114,6 @@ const routes = [
 	    },
 	},
 	{
-	    path: '/pages/common/helloWorld',
-	    name: 'helloWorld',
-	    meta: {
-	        title: 'helloWorld',
-	    },
-	},
-	{
 	    path: '/pages/common/operationReport',
 	    name: 'operationReport',
 	    meta: {
@@ -362,13 +355,6 @@ const routes = [
 	    name: 'classifyMargin',
 	    meta: {
 	        title: '分类毛利',
-	    },
-	},
-	{
-	    path: '/pages/saleReport/saleReport',
-	    name: 'saleReport',
-	    meta: {
-	        title: '销售报表',
 	    },
 	},
 ]
