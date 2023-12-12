@@ -240,13 +240,15 @@
 							try {
 								let res = await this.topShareRank(params);
 								this.isLoading = false;
-								console.log(JSON.stringify(res));
-								if (res.data.success) {
-									this.summary.list.push(...res.data.result.individualDataList);
-									// console.log(JSON.stringify(res.data.result.individualDataList[0]));
+								// console.log(JSON.stringify(res));
+								console.log(JSON.stringify(res.data.result));
+								if (res.data.success ==true) {
+									this.summary.list.push(...res.data.result.dataList);
+									
 								} else {
 									this.$tip.alert(res.data.message);
 								}
+								console.log(JSON.stringify(this.summary.list));
 							} catch (err) {
 								let msg = err.data.message || "请求出现错误，请稍后再试";
 								this.isLoading = false;

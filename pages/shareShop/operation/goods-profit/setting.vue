@@ -39,14 +39,34 @@
 						</view>
 						
 					</view>
-					<view class="card-wrapper" v-for="(item, index) in schemeList" :key="index">
+					<view class="card-wrapper" v-for="(item, i1) in schemeList" :key="i1">
 						<view class="card-content">
 							<view class="card-line">
-								<view class="cooperation-years"> {{ item.cooperationYears }}</view>
-								<view class="dividing-ratio">{{ item.dividingRatio }}</view>
-								<view class="profit-rate"><input type="text" placeholder="" v-model="item.giftPlan" />%</view>
+								<view class="cooperation-years"> {{ item.status }}<u-radio v-model="item.status"></u-radio></view>
+								<view class="dividing-ratio">{{ item.categoryName }}</view>
+								<view class="profit-rate"><input type="text" placeholder="" v-model="item.grossMarginRate" />%</view>
 							</view>
-							
+							<view class="card-wrapper" v-for="(secondItem, i2) in item.children" :key="i2">
+								<view class="card-content">
+									<view class="card-line">
+										<view class="cooperation-years"> {{ secondItem.status }} <u-radio v-model="secondItem.status"></u-radio></view>
+										<view class="dividing-ratio">{{ secondItem.categoryName }}</view>
+										<view class="profit-rate"><input type="text" placeholder="" v-model="secondItem.grossMarginRate" />%</view>
+									</view>
+									<view class="card-wrapper" v-for="(triItem, i3) in secondItem.children" :key="i3">
+										<view class="card-content">
+											<view class="card-line">
+												<view class="cooperation-years"> {{ triItem.status }}<u-radio v-model="triItem.status"></u-radio></view>
+												<view class="dividing-ratio">{{ triItem.categoryName }}</view>
+												<view class="profit-rate"><input type="text" placeholder="" v-model="triItem.grossMarginRate" />%</view>
+											</view>
+											
+										</view>
+										
+									</view>
+								</view>
+								
+							</view>
 						</view>
 						
 					</view>
@@ -70,7 +90,7 @@
 						</view>
 						
 					</view>
-					<view class="card-wrapper" v-for="(item, index) in schemeList" :key="index">
+					<view class="card-wrapper" v-for="(item, index) in productSchemeList" :key="index">
 						<view class="card-content">
 							<view class="card-line">
 								<view class="cooperation-years"> {{ item.cooperationYears }}</view>
@@ -91,9 +111,15 @@
 </template>
 
 <script>
+	import UniOrg from './component/uni-org.vue';
+	import uRadio from '../../../../uni_modules/uview-ui/components/u-radio/props.js'
 	export default {
+	  components: {
+	    UniOrg
+	  },
 		data() {
 			return {
+				orgDataUrl:'http://localhost:9999/jeecg-demo/productCategory/orgData?page=10&pageSize=100',
 				buttonList:[{name:"已设置"},{name:"未设置"}],
 				list: [{
 						name: "分类毛利",
@@ -104,7 +130,8 @@
 				],
 				//默认展开第几项
 				current: 0,
-				schemeList: [], // 存储数据源
+				schemeList: [], // 分类存储数据源
+				productSchemeList: [], // 商品列表
 				btnText: { // 存储按钮文本内容，以便后期可能的国际化处理
 					delete: '删除',
 					edit: '停用',
@@ -121,15 +148,30 @@
 			// 初始化数据，调用接口获取列表数据
 			initSchemeList() {
 				// api.fetchData 获取数据的方法（这里采用mock数据作为示例）
-				this.schemeList = [...Array(50)].map((v, i) => ({
-					default:  '默认方案',
-					giftType:  '毛利分红',
-					cooperationYears:  '是',
-                    dividingRatio: '顶级分类',
-                    shopName:'狮子头',
-                    price:'30.00',
-					giftPlan: 30
-				}))
+				// this.schemeList = [...Array(50)].map((v, i) => ({
+				// 	default:  '默认方案',
+				// 	giftType:  '毛利分红',
+				// 	cooperationYears:  '是',
+    //                 dividingRatio: '顶级分类',
+    //                 shopName:'狮子头',
+    //                 price:'30.00',
+				// 	giftPlan: 30
+				// }))
+				uni.request({
+				  url: this.orgDataUrl,
+				  method: 'GET',
+				  header: {
+				    'X-ACCESS-TOKEN': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MDIzMzA0OTYsInVzZXJuYW1lIjoiYWRtaW4ifQ.U8NL70BQCR-KuSrTPOpDyI6skiGbidrB2EohKkS-6t8' // Add X-ACCESS-TOKEN parameter to the header
+				  },
+				  success: (response) => {
+				  
+				  this.schemeList = response.data.result.records;
+				    console.log(JSON.stringify(response.data));
+				  },
+				  fail: (error) => {
+				    console.error(error);
+				  }
+				});
 			},
 			// 删除方案
 			deleteScheme(index) {
