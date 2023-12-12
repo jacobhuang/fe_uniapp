@@ -247,7 +247,7 @@ export default {
       show: false,
       list: [],
       selectedColor: "#FFF",
-      currentIndex: 1,
+      currentIndex: 2,
       swiperList: [
         {
           id: 1,
@@ -274,21 +274,6 @@ export default {
           link: "",
         },
       ],
-      middleApps: [
-        {
-          icon: "line2_icon1.png",
-          title: "审批",
-          text: "个人审批",
-        },
-        {
-          icon: "line2_icon2.png",
-          title: "审批稿",
-          text: "审批草稿箱",
-        },
-      ],
-      // usList: us.data,
-      // osList: os.data,
-      // baseList: base.data,
       headerList: header.data,
       shareShopList: shareShop.data,
       shareEmployeeList: shareEmployee.data,

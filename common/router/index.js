@@ -1,5 +1,5 @@
-import modules from './modules'
 import Vue from 'vue'
+import modules from './modules'
 import Router from '@/plugin/uni-simple-router/index.js'
 import {ACCESS_TOKEN} from '@/common/util/constants.js'
 
